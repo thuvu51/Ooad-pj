@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(204, 146, 74);
+}
+div#box-Menu ul li{
+    margin: 0; padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+*{
+    font-size: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+}
+.box-Menu{
+    background-color: rgb(148, 51, 7);
+    text-align: center;
+}
+.box-Menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(204, 146, 74);
+}
+.box-Menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    background-color: blanchedalmond;
+    border-width: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;    
+    margin: 35px;
+    min-width: 170px;
+}
+
+h1{
+    color: brown;
+    font-size: 60px;  
+    border-style: initial;
+    background-color: rgb(236, 181, 114);
+}
+p{
+    background-color: rgb(236, 181, 114);
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+img{
+    border-radius: 100px;
+}
+
+.box-Menu li a:hover { 
+    /* change color on hover (mouseover) */ 
+    color: rgba(255, 0, 0, 0.623);
+}
+

@@ -1,0 +1,13 @@
+div#content ol li {
+    box-sizing: border-box;
+}
+h2{
+    text-align: left;
+}
+div#content ul li {
+    list-style: circle;
+}
+body {
+    text-align: left;
+    background-color: rgb(204, 146, 74);
+}
